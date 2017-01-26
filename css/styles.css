@@ -1,0 +1,126 @@
+/* two24studios v1.0.0 | MIT License | github.com/two24studios/two24studios.com */
+
+@-webkit-keyframes bg-gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+@-moz-keyframes bg-gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+@keyframes bg-gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 2%;
+  font-family: "Industry", "Helvetica Neue", Helvetica, sans-serif;
+  background: #80deea;
+  background: linear-gradient(270deg, #e91e63, #80deea, #5e35b1);
+  background-size: 600% 600%;
+  color: #37474f;
+  animation: bg-gradient 60s ease infinite;
+}
+
+h1 {
+  position: relative;
+  margin: 0 0 24px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1:before {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  margin-left: -30px;
+  background: linear-gradient(270deg, #e91e63, #80deea, #5e35b1);
+  background-size: 600% 600%;
+  animation: bg-gradient 60s ease infinite;
+  content: "";
+}
+
+h1 span {
+  color: #546e7a;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+[type="email"],
+[type="submit"] {
+  font-family: "Industry", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+[type="email"]:focus,
+[type="submit"]:focus {
+  outline: none;
+}
+
+[type="email"] {
+  width: 280px;
+  height: 42px;
+  margin-bottom: 24px;
+  background-color: #eceff1;
+  border: 0;
+  text-align: center;
+  transition: background-color .3s ease;
+}
+
+[type="email"]:focus {
+  background-color: #cfd8dc;
+}
+
+[type="submit"] {
+  height: 42px;
+  padding: 0 42px;
+  background: linear-gradient(270deg, #e91e63, #80deea, #5e35b1);
+  background-size: 600% 600%;
+  border: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  animation: bg-gradient 60s ease infinite;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+}
