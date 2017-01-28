@@ -114,6 +114,7 @@ img {
   letter-spacing: 1px;
   text-transform: uppercase;
   animation: bg-gradient 60s ease infinite;
+  cursor: pointer;
 }
 
 .container {
