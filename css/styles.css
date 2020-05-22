@@ -91,6 +91,11 @@ img {
   letter-spacing: 1px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: color 0.3s;
+}
+
+[type="submit"]:hover {
+  background-color: #53535c;
 }
 
 .container {
