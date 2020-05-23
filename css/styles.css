@@ -45,6 +45,7 @@ h1:before {
 }
 
 h1 span {
+  padding: 0 6px;
   color: #53535c;
 }
 
@@ -91,7 +92,7 @@ img {
   letter-spacing: 1px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: background-color 0.3s;
 }
 
 [type="submit"]:hover {
